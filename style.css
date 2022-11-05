@@ -63,13 +63,13 @@ a:hover {
 }
 .overlay {
     position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	opacity: 0;
-	background-color: hsla(178, 100%, 50%, .2);
-	display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, .2);
+    display: flex;
 }
 .overlay:hover  {
     opacity: 1;
@@ -78,9 +78,9 @@ a:hover {
 }
 .ctn {
     width: 90%;
-	border-radius: 8px;
-	overflow: hidden;
-	position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
     margin: 15px;
 }
 .view {
@@ -131,7 +131,7 @@ a:hover {
 }
 @media (max-width: 375px) {
     .container p {
-        width: 100%;
+     	width: 100%;
         text-align: center;
     }
     .main h1 {
